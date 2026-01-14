@@ -57,9 +57,9 @@
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: '<a href="https://github.com/alshedivat/al-folio">al-folio</a>'
-      year: 2015 - present
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: '<a href="https://github.com/dodeondre/folioverse">Folioverse</a>'
+      year: 2026 - present
+      description: A simple web application to allow pokemon trading card collectors to store and gain data insights on their collections.
 
 - title: Technical Skills
   type: nested_list
