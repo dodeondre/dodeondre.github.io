@@ -6,7 +6,7 @@ inline: false
 related_posts: false
 ---
 
-I am happy to share that our latest work, **"PrecisionPro Fusion: Clinical Validation of an Automated MRI-CT Fusion System,"** has been published in *TipsRO*.
+I am happy to share that our latest work, **"PrecisionPro Fusion: Clinical Validation of an Automated MRI-CT Fusion System,"** has been published in _TipsRO_.
 
 In this study, we addressed a critical bottleneck in physician workflows: the manual alignment of multi-modal imaging data. By engineering an automated Python/MATLAB pipeline, we:
 
