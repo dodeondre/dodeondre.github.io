@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'New Publication: Clinical Validation of PrecisionPro Fusion'
+title: "New Publication: Clinical Validation of PrecisionPro Fusion"
 date: 2025-12-01 10:00:00-0800
 inline: false
 related_posts: false
