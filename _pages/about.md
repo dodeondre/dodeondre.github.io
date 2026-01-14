@@ -37,7 +37,6 @@ My academic interests lie in:
 - **Computer Vision for Social Impact:** Engineering automated diagnostic tools to increase healthcare accessibility.
 - **Advanced Imaging:** Exploring the hardware-software co-design of next-generation imaging technology.
 
-
 ### Beyond the Lab
 
 In addition to my research, I am a part-time business owner and the founder of DeckBuilder Trading Card Games, a hobby store built to help collectors liquidate and build their trading card collections. By leveraging PyTorch and Computer Vision, I am building tools to automate inventory management and financial tracking for the hobbyist community.
