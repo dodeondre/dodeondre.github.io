@@ -99,7 +99,7 @@
       "name": "Post-Hoc Estimation of a Quantitative Restriction Spectrum Imaging Biomarker",
       "publisher"= "medRxiv",
       "releaseDate": "2025-10-15"
-      month={October},
+      "month": "October",
       "url": "https://www.medrxiv.org/content/10.1101/2025.10.10.25337687v1",
       "summary":"This study develops a mathematical model of multi-exponential signal decay to recover diagnostic insights from legacy diffusion-weighted imaging (DWI) datasets. The methodology enables centers without specialized hardware to perform retrospective analysis using advanced RSI metrics."
     },
