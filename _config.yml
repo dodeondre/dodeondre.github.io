@@ -95,10 +95,10 @@ giscus:
 disqus_shortname: al-folio
 
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-    categories: [external-posts]
-    tags: [medium]
+  #- name: medium.com
+  #  rss_url: https://medium.com/@al-folio/feed
+  #  categories: [external-posts]
+  #  tags: [medium]
 
 # -----------------------------------------------------------------------------
 # Collections
