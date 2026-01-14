@@ -435,10 +435,7 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-new-publication-clinical-validation-of-precisionpro-fusion",
+      },{id: "news-new-publication-clinical-validation-of-precisionpro-fusion",
           title: 'New Publication — Clinical Validation of PrecisionPro Fusion',
           description: "",
           section: "News",handler: () => {
