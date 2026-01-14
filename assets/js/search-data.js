@@ -106,7 +106,7 @@ ninja.data = [{
           
         },
       },{id: "news-new-publication-clinical-validation-of-precisionpro-fusion",
-          title: 'New Publication — Clinical Validation of PrecisionPro Fusion',
+          title: 'New Publication: Clinical Validation of PrecisionPro Fusion',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
