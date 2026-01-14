@@ -87,12 +87,8 @@
       items:
         - Researching automated medical image analysis and diagnostic tools to improve healthcare accessibility and patient outcomes.
         - Developing real-time object detection and spatial awareness algorithms to enhance assistive technologies for the visually impaired.
-    - title: Advanced Imaging & Computational Photography
-      items:
-        - Investigating hardware-software co-design to push the boundaries of low-light imaging and high-resolution detail recovery.
-        - Exploring the intersection of real-time game engine rendering and synthetic data generation to create robust simulations for real-world applications.
 
 - title: Other Interests
   type: list
   contents:
-    - "<u>Hobbies:</u> Immersive video games and game design, Entrepreneurship and strategic business management, and exploring the evolution of digital interactive media."
+    - "<u>Hobbies:</u> Immersive video games, Entrepreneurship and strategic business/financial management, and exploring the evolution of digital interactive media."
