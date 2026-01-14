@@ -54,12 +54,11 @@
         - Configured Linux servers for secure, multi-institutional data transfer.
         - Managed IT support infrastructure and authored Standard Operating Procedures (SOPs).
 
-
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
+    - title: '<a href="https://github.com/alshedivat/al-folio">al-folio</a>'
+      year: 2015 - present
       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Technical Skills
@@ -96,4 +95,4 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Immersive video games and game design, Entrepreneurship and strategic business management, and exploring the evolution of digital interactive media.
+    - "<u>Hobbies:</u> Immersive video games and game design, Entrepreneurship and strategic business management, and exploring the evolution of digital interactive media."
