@@ -51,15 +51,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-a-post-with-formatting-and-links",
+        },{id: "post-template",
         
-          title: "a post with formatting and links",
+          title: "Template",
         
-        description: "march &amp; april, looking forward to summer",
+        description: "",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2015/template/";
+            window.location.href = "/blog/2026/template/";
           
         },
       },{id: "books-hands-on-machine-learning-with-scikit-learn-and-pytorch",
