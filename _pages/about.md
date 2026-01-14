@@ -6,10 +6,9 @@ subtitle: "PhD Candidate in Bioengineering at UC San Diego | Data Scientist"
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Center for Multimodal Imaging & Genetics</p>
     <p>University of California, San Diego</p>
     <p>San Diego, CA</p>
 
@@ -36,13 +35,13 @@ My research focuses on developing advanced diagnostic tools, specifically using 
 My academic interests lie in:
 
 - **Computer Vision for Social Impact:** Engineering automated diagnostic tools to increase healthcare accessibility.
-- **Advanced Imaging:** Exploring the hardware-software co-design of next-generation low-light and high-resolution imaging.
-- **Synthetic Data:** Utilizing game engine rendering to create robust simulations for real-world computer vision applications.
+- **Advanced Imaging:** Exploring the hardware-software co-design of next-generation imaging technology.
+
 
 ### Beyond the Lab
 
-In addition to my research, I am a part-time business owner and the founder of **Folioverse**, a cross-platform application for TCG collectors. By leveraging PyTorch and Computer Vision, I am building tools to automate inventory management and financial tracking for the hobbyist community.
+In addition to my research, I am a part-time business owner and the founder of DeckBuilder Trading Card Games, a hobby store built to help collectors liquidate and build their trading card collections. By leveraging PyTorch and Computer Vision, I am building tools to automate inventory management and financial tracking for the hobbyist community.
 
-When I am not training models or processing DICOM data, you can find me exploring the latest in immersive video game design, studying strategic business management, or experimenting with new imaging techniques.
+When I am not processing DICOM data, you can find me exploring the latest in video games, studying strategic business management, or experimenting with new skills like video editing or 3D modeling.
 
 I am always open to collaborations at the intersection of AI, Bioengineering, and Entrepreneurship. Feel free to reach out via email or connect with me on LinkedIn.
