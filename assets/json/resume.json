@@ -54,18 +54,6 @@
       ]
     }
   ],
-  "volunteer": [
-    {
-      "organization": "Bioengineering Outreach",
-      "location": "San Diego, CA",
-      "position": "Mentor",
-      "url": "",
-      "startDate": "2021-01-01",
-      "endDate": "",
-      "summary": "Mentoring undergraduate students in medical imaging research and data science workflows.",
-      "highlights": []
-    }
-  ],
   "education": [
     {
       "institution": "University of California, San Diego",
@@ -90,20 +78,11 @@
       "courses": []
     }
   ],
-  "awards": [
-    {
-      "title": "3 First-Author Manuscripts",
-      "date": "2025-01-01",
-      "awarder": "Technical Innovations & Patient Support in Radiation Oncology",
-      "url": "",
-      "summary": "Authored multiple high-impact studies on clinical validation and algorithm optimization for MRI systems."
-    }
-  ],
   "certificates": [
     {
-      "name": "Machine Learning Specialization",
-      "date": "2024-01-01",
-      "issuer": "Coursera / Stanford",
+      "name": "Associate Data Scientist in Python",
+      "date": "2025-11-26",
+      "issuer": "Datacamp",
       "url": "",
       "icon": "fa-solid fa-code"
     }
@@ -112,14 +91,22 @@
     {
       "name": "PrecisionPro fusion: Clinical validation of an automated MRI-CT Fusion system",
       "publisher": "Technical Innovations & Patient Support in Radiation Oncology",
-      "releaseDate": "2025-01-01",
+      "releaseDate": "2025-12",
       "url": "https://www.sciencedirect.com/science/article/pii/S240563242500054X",
       "summary": "Automated pipeline using Python/MATLAB to synchronize multi-modal imaging data for clinical radiotherapy planning."
+    },
+    {  
+      "name": "Post-Hoc Estimation of a Quantitative Restriction Spectrum Imaging Biomarker",
+      "publisher"= "medRxiv",
+      "releaseDate": "2025-10-15"
+      month={October},
+      "url": "https://www.medrxiv.org/content/10.1101/2025.10.10.25337687v1",
+      "summary":"This study develops a mathematical model of multi-exponential signal decay to recover diagnostic insights from legacy diffusion-weighted imaging (DWI) datasets. The methodology enables centers without specialized hardware to perform retrospective analysis using advanced RSI metrics."
     },
     {
       "name": "Robustness of a Restriction Spectrum Imaging (RSI) quantitative MRI biomarker",
       "publisher": "medRxiv",
-      "releaseDate": "2024-09-20",
+      "releaseDate": "2024-09-12",
       "url": "https://www.medrxiv.org/content/10.1101/2024.09.20.24314106v1",
       "summary": "Study of 1,890 patients evaluating the robustness of RSIrs against age, race, and hardware variations."
     }
@@ -147,14 +134,14 @@
   ],
   "interests": [
     {
-      "name": "Gaming & Development",
+      "name": "Gaming",
       "icon": "fa-solid fa-gamepad",
-      "keywords": ["Game Design", "Immersive Systems", "Interactive Media"]
+      "keywords": ["Video Games","Trading Card Games","Board Games"]
     },
     {
       "name": "Entrepreneurship",
       "icon": "fa-solid fa-briefcase",
-      "keywords": ["Strategic Management", "SaaS", "Product Development"]
+      "keywords": ["Strategic Management", "Product Development","Business Analysis"]
     }
   ],
   "references": [],
@@ -167,8 +154,7 @@
         "Scalable SQL database managing thousands of unique card permutations.",
         "Integrated real-time financial dashboards for hobbyist collectors."
       ],
-      "startDate": "2024-01-01",
-      "endDate": "2026-01-01",
+      "endDate": "In Progress",
       "url": "https://github.com/dodeondre"
     }
   ]
