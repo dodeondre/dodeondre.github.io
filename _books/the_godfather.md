@@ -1,27 +1,27 @@
 ---
 layout: book-review
-title: The Godfather
-author: Mario Puzo
-cover: assets/img/book_covers/the_godfather.jpg
-olid: OL43499941M # use Open Library ID to fetch cover (if no `cover` is provided)
-isbn: 7539967447 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
-categories: classics crime historical-fiction mystery novels thriller
-tags: top-100
-buy_link: https://www.amazon.com/Godfather-Deluxe-Mario-Puzo/dp/0593542592
-started: 2024-08-23
-finished: 2024-09-07
-released: 1969
+title: Hands-On Machine Learning with Scikit-Learn and PyTorch
+author: Aurélien Géron
+cover: assets/img/book_covers/handson_ml_pytorch.jpg
+olid: # Open Library ID (often blank for brand new 2025 releases)
+isbn: 9798341607989 # Standard ISBN-13 for the 2025 edition
+categories: programming technology machine-learning artificial-intelligence python data-science
+tags: deep-learning pytorch scikit-learn transformers
+buy_link: https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-Intelligent/dp/1098172901
+started: 2024-12-01
+finished: 2025-01-10
+released: 2025
 stars: 5
-goodreads_review: 6318556633
-status: Finished
+goodreads_review: # Optional: Add your specific review ID
+status: In Progress
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin eros sit amet ante aliquet, sit amet vulputate lectus mattis. Aenean ullamcorper pretium nunc, sed egestas lorem elementum id. Nulla id mi id neque ultrices egestas ut in urna. Sed ac ultricies nunc. Nam convallis placerat urna id egestas. Nulla porta, est interdum vestibulum venenatis, lorem odio laoreet sapien, in pulvinar tellus eros a dolor. Vivamus sapien justo, ullamcorper a mi eget, scelerisque euismod nunc. In augue augue, ultrices a ornare non, tincidunt quis justo. Donec sit amet consectetur eros. Nullam neque leo, tincidunt id ipsum ac, volutpat lobortis mi. Phasellus consequat ultricies arcu, eu semper ligula ultrices eget. Ut in fringilla elit, ac tincidunt nisi.
+Considered the definitive guide for both newcomers and seasoned practitioners, this updated edition of Aurélien Géron’s classic provides a comprehensive, hands-on roadmap to building intelligent systems. The 2025 edition marks a significant pivot in the series, shifting its deep learning focus from Keras and TensorFlow to the PyTorch ecosystem, reflecting the industry's growing preference for PyTorch's flexibility and research-friendly architecture.
 
-Nunc commodo elit nec turpis feugiat consectetur. Nullam in nisi egestas, fermentum ligula hendrerit, euismod enim. Nulla eu hendrerit eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et velit ante. Vestibulum pretium vitae quam et sagittis. Proin eu nunc vel velit accumsan eleifend. Nulla facilisis, diam tempus imperdiet ultrices, massa ipsum consequat orci, sed efficitur eros mi a felis. Cras lobortis turpis sem, sed lobortis nunc ullamcorper tristique. Nam vehicula rhoncus ante, in faucibus sapien scelerisque et. Donec semper libero et tincidunt mattis. In vestibulum, nulla pretium dictum commodo, risus nulla vestibulum felis, at tincidunt massa mi in odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+The book is structured into two distinct parts. The first half remains the gold standard for mastering "traditional" machine learning using Scikit-Learn. Géron meticulously walks through the entire project lifecycle—from data exploration and cleaning to model evaluation. You gain a deep intuition for core algorithms like linear and logistic regression, Support Vector Machines (SVMs), decision trees, and ensemble methods like Random Forests and Gradient Boosting.
 
-Donec efficitur ultrices purus sit amet imperdiet. Nam consequat metus in erat sodales faucibus. Aliquam maximus fermentum nulla id finibus. Aliquam iaculis sed odio vel rutrum. Curabitur sed odio est. Praesent nec sollicitudin tortor. Praesent pharetra, turpis quis porttitor rhoncus, ante massa fringilla lacus, nec porttitor magna turpis vitae felis. Nullam tristique massa id odio imperdiet, nec sodales massa egestas. Proin nisi metus, euismod sed accumsan vitae, facilisis vel risus. Morbi suscipit auctor erat, nec viverra elit fringilla eu. Mauris congue, purus id tristique facilisis, felis nisi efficitur magna, eu consectetur augue sem vitae lacus. Aliquam erat volutpat. Cras at nibh ultricies, volutpat arcu vitae, dictum est. In ac dolor sagittis, egestas lectus et, semper nisl. Etiam consectetur purus vitae sapien porttitor auctor.
+The second half dives into the world of neural networks using PyTorch. This section has been heavily updated to reflect the modern AI landscape, covering not only the fundamentals of backpropagation and architecture design but also advanced concepts like Convolutional Neural Networks (CNNs) for computer vision and Recurrent Neural Networks (RNNs). The transition to PyTorch allows for a more granular understanding of how tensors and computational graphs operate under the hood.
 
-Nulla sit amet venenatis odio. Suspendisse ac lacus quis augue mollis tempus vel in lorem. Donec augue turpis, eleifend nec nibh eu, elementum dictum metus. Proin ut est ligula. Etiam vehicula facilisis metus, sit amet consectetur risus ullamcorper porttitor. In congue nibh quis sollicitudin iaculis. Donec a mollis lorem, non mollis lacus. Nulla et leo ex. Aliquam erat volutpat. Nam sit amet tincidunt mauris. Vivamus vitae est sit amet nisi semper egestas. Donec in diam pharetra, commodo diam vitae, imperdiet ligula. Cras iaculis ac diam eget vehicula. Proin suscipit ante enim, quis vehicula mi porta bibendum. Aliquam a diam porttitor, sollicitudin justo vitae, tempor odio.
+What sets this edition apart is its inclusion of cutting-edge topics. It introduces the Hugging Face ecosystem, showing readers how to leverage and fine-tune Large Language Models (LLMs), Transformers, and Diffusion models. By moving beyond simple classification into the realm of Generative AI and Reinforcement Learning, Géron ensures that readers are prepared for the state-of-the-art challenges currently facing AI engineers.
 
-Cras fermentum dignissim pretium. Donec quis turpis eu neque lacinia facilisis in sit amet nibh. Nulla non tortor ultricies, euismod est in, blandit nibh. Ut a neque metus. Sed convallis condimentum nibh quis finibus. Praesent aliquam sem iaculis eros maximus accumsan. Nulla venenatis mauris id aliquet maximus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at enim vitae ex porttitor vestibulum sed eget nibh. Suspendisse accumsan feugiat quam eget ultricies.
+Ultimately, the "Hands-On" in the title is well-earned. Every chapter is supported by Jupyter notebooks and real-world datasets, encouraging a "code-first" approach to learning. Whether you are a student looking to break into data science or a professional aiming to modernize your toolkit with PyTorch and LLMs, this book remains an essential, permanent fixture on any developer's bookshelf.
