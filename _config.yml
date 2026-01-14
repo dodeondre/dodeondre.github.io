@@ -212,7 +212,7 @@ display_categories: ["research", "projects"]
 
 scholar:
   last_name: [Do]
-  first_name: [Deondre, Deondre D.]
+  first_name: [Deondre, Deondre D., Deondre D]
 
   style: apa
   locale: en
@@ -240,9 +240,32 @@ enable_publication_badges:
 
 filtered_bibtex_keywords:
   [
-    abbr, abstract, additional_info, altmetric, annotation, arxiv, award, award_name,
-    bibtex_show, blog, code, dimensions, eprint, google_scholar_id, hal, html,
-    inspirehep_id, pdf, pmid, poster, preview, selected, slides, supp, video, website,
+    abbr,
+    abstract,
+    additional_info,
+    altmetric,
+    annotation,
+    arxiv,
+    award,
+    award_name,
+    bibtex_show,
+    blog,
+    code,
+    dimensions,
+    eprint,
+    google_scholar_id,
+    hal,
+    html,
+    inspirehep_id,
+    pdf,
+    pmid,
+    poster,
+    preview,
+    selected,
+    slides,
+    supp,
+    video,
+    website,
   ]
 
 max_author_limit: 3
