@@ -203,7 +203,7 @@ jekyll-archives:
     enabled: [year, tags, categories]
 
 display_tags: ["machine-learning", "computer-vision", "imaging", "bioengineering", "python"]
-display_categories: ["research", "projects"]
+# display_categories: ["research", "projects"]
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar (Highlights your name in papers)
