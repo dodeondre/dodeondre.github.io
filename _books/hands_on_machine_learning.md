@@ -13,7 +13,7 @@ finished:
 released: 2025
 stars: 5
 goodreads_review: # Optional: Add your specific review ID
-status: In Progress
+status: Reading
 ---
 
 Considered the definitive guide for both newcomers and seasoned practitioners, this updated edition of Aurélien Géron’s classic provides a comprehensive, hands-on roadmap to building intelligent systems. The 2025 edition marks a significant pivot in the series, shifting its deep learning focus from Keras and TensorFlow to the PyTorch ecosystem, reflecting the industry's growing preference for PyTorch's flexibility and research-friendly architecture.
