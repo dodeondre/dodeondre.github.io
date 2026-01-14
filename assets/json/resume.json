@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Deondre Do",
-    "label": "Data Scientist & Bioengineering PhD Candidate",
+    "label": "Data Analyst/Scientist & Bioengineering PhD",
     "image": "",
     "email": "dddo@ucsd.edu",
     "phone": "760-468-5645",
@@ -37,7 +37,7 @@
       "summary": "Leading multi-center clinical validation of RSIrs biomarkers and engineering automated MRI-CT registration pipelines.",
       "highlights": [
         "Validated RSIrs as a cancer biomarker using data from 1,890 patients across 7 institutions.",
-        "Achieved AUC 0.77 for cancer detection, significantly outperforming the clinical standard (0.51).",
+        "Validated a post-hoc quantitative imaging biomarker to achieve cancer detection performance comparable to dedicated imaging acquisitions (AUC: 0.71 vs 0.77), significantly outperforming the clinical standard (0.51).",
         "Developed PrecisionPro Fusion, reducing MRI-CT registration time to under 15 minutes."
       ]
     },
@@ -64,7 +64,7 @@
       "startDate": "2021-09-01",
       "endDate": "2025-12-31",
       "score": "3.93",
-      "courses": ["Advanced Medical Imaging", "Statistical Learning", "Computational Modeling"]
+      "courses": ["Quantitative Medical Imaging", "Statistical Learning", "Computational Modeling"]
     },
     {
       "institution": "University of California, Los Angeles",
@@ -90,7 +90,7 @@
   "publications": [
     {
       "name": "PrecisionPro fusion: Clinical validation of an automated MRI-CT Fusion system",
-      "publisher": "Technical Innovations & Patient Support in Radiation Oncology",
+      "publisher": "Technical Innovations & Patient Support in Radiation Oncology (TipsRO)",
       "releaseDate": "2025-12",
       "url": "https://www.sciencedirect.com/science/article/pii/S240563242500054X",
       "summary": "Automated pipeline using Python/MATLAB to synchronize multi-modal imaging data for clinical radiotherapy planning."
@@ -101,14 +101,14 @@
       "releaseDate": "2025-10-15",
       "month": "October",
       "url": "https://www.medrxiv.org/content/10.1101/2025.10.10.25337687v1",
-      "summary":"This study develops a mathematical model of multi-exponential signal decay to recover diagnostic insights from legacy diffusion-weighted imaging (DWI) datasets. The methodology enables centers without specialized hardware to perform retrospective analysis using advanced RSI metrics."
+      "summary":"This study develops a mathematical model of multi-exponential signal decay to recover diagnostic insights from legacy diffusion-weighted imaging (DWI) datasets using Restriction Spectrum Imaging. The methodology enables centers without specialized hardware to perform retrospective analysis using advanced RSI metrics."
     },
     {
       "name": "Robustness of a Restriction Spectrum Imaging (RSI) quantitative MRI biomarker",
       "publisher": "medRxiv",
       "releaseDate": "2024-09-12",
       "url": "https://www.medrxiv.org/content/10.1101/2024.09.20.24314106v1",
-      "summary": "Study of 1,890 patients evaluating the robustness of RSIrs against age, race, and hardware variations."
+      "summary": "Study of 1,890 patients evaluating the robustness of the quantitative imaging biomarker RSIrs against age, race, and hardware variations."
     }
   ],
   "skills": [
@@ -147,7 +147,7 @@
   "references": [],
   "projects": [
     {
-      "name": "Folioverse",
+      "name": "Folioverse (In Progress)",
       "summary": "Cross-platform TCG inventory application using proprietary Computer Vision scanners to automate card logging and market analysis.",
       "highlights": [
         "PyTorch-powered pipeline for real-time card set detection.",
