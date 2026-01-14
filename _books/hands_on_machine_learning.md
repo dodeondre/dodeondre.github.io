@@ -8,12 +8,12 @@ isbn: 9798341607989 # Standard ISBN-13 for the 2025 edition
 categories: programming technology machine-learning artificial-intelligence python data-science
 tags: deep-learning pytorch scikit-learn transformers
 buy_link: https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-Intelligent/dp/1098172901
-started: 2024-12-01
-finished: 2025-01-10
+started: 2026-01-01
+finished:
 released: 2025
 stars: 5
 goodreads_review: # Optional: Add your specific review ID
-status: Finished
+status: In Progress
 ---
 
 Considered the definitive guide for both newcomers and seasoned practitioners, this updated edition of Aurélien Géron’s classic provides a comprehensive, hands-on roadmap to building intelligent systems. The 2025 edition marks a significant pivot in the series, shifting its deep learning focus from Keras and TensorFlow to the PyTorch ecosystem, reflecting the industry's growing preference for PyTorch's flexibility and research-friendly architecture.
