@@ -73,7 +73,12 @@ ninja.data = [{
             window.location.href = "/blog/2015/template/";
           
         },
-      },{id: "news-new-publication-clinical-validation-of-precisionpro-fusion",
+      },{id: "books-hands-on-machine-learning-with-scikit-learn-and-pytorch",
+          title: 'Hands-On Machine Learning with Scikit-Learn and PyTorch',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/hands_on_machine_learning/";
+            },},{id: "news-new-publication-clinical-validation-of-precisionpro-fusion",
           title: 'New Publication: Clinical Validation of PrecisionPro Fusion',
           description: "",
           section: "News",handler: () => {
