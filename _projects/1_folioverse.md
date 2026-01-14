@@ -2,7 +2,7 @@
 layout: page
 title: FolioVerse
 description: From Interactive Binder to Event Infrastructure Platform
-img: assets/img/dkbxtcg_logo.jpg
+img: assets/img/dkbxtcg_logo.ico
 importance: 1
 category: work
 related_publications: false
