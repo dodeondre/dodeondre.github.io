@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: "PhD Candidate in Bioengineering at UC San Diego | Data Scientist"
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Center for Multimodal Imaging & Genetics</p>
+    <p>University of California, San Diego</p>
+    <p>San Diego, CA</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +27,21 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Bioengineering PhD candidate at the **University of California, San Diego**, where I specialize in the intersection of Computer Vision, medical imaging, and data science. My academic mission is centered on improving imaging technology to directly enhance patient care and improve the lives of others.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research focuses on developing advanced diagnostic tools, specifically using **Diffusion-Weighted MRI** for prostate cancer detection. I recently led a multi-center study involving 1,890 patients to validate the RSIrs biomarker, achieving an AUC of 0.77—significantly outperforming current clinical standards. Beyond biomarker validation, I am passionate about automation; I developed **PrecisionPro Fusion**, a Python/MATLAB pipeline that reduces MRI-CT registration time to under 15 minutes with sub-millimeter accuracy.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+### Research & Vision
+
+My academic interests lie in:
+- **Computer Vision for Social Impact:** Engineering automated diagnostic tools to increase healthcare accessibility.
+- **Advanced Imaging:** Exploring the hardware-software co-design of next-generation low-light and high-resolution imaging.
+- **Synthetic Data:** Utilizing game engine rendering to create robust simulations for real-world computer vision applications.
+
+### Beyond the Lab
+
+In addition to my research, I am a part-time business owner and the founder of **Folioverse**, a cross-platform application for TCG collectors. By leveraging PyTorch and Computer Vision, I am building tools to automate inventory management and financial tracking for the hobbyist community.
+
+When I am not training models or processing DICOM data, you can find me exploring the latest in immersive video game design, studying strategic business management, or experimenting with new imaging techniques.
+
+I am always open to collaborations at the intersection of AI, Bioengineering, and Entrepreneurship. Feel free to reach out via email or connect with me on LinkedIn.
