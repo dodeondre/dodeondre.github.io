@@ -435,15 +435,15 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+      },{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
+          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          description: "",
+          section: "News",},{id: "news-new-publication-clinical-validation-of-precisionpro-fusion",
+          title: 'New Publication — Clinical Validation of PrecisionPro Fusion',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-defending-my-phd-in-bioengineering-at-uc-san-diego",
+            },},{id: "news-defending-my-phd-in-bioengineering-at-uc-san-diego",
           title: 'Defending my PhD in Bioengineering at UC San Diego',
           description: "",
           section: "News",handler: () => {
