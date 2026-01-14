@@ -44,18 +44,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-template",
-        
-          title: "Template",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/template/";
-          
-        },
-      },{id: "books-hands-on-machine-learning-with-scikit-learn-and-pytorch",
+        },{id: "books-hands-on-machine-learning-with-scikit-learn-and-pytorch",
           title: 'Hands-On Machine Learning with Scikit-Learn and PyTorch',
           description: "",
           section: "Books",handler: () => {
