@@ -34,6 +34,7 @@ My research focuses on developing advanced diagnostic tools, specifically using 
 ### Research & Vision
 
 My academic interests lie in:
+
 - **Computer Vision for Social Impact:** Engineering automated diagnostic tools to increase healthcare accessibility.
 - **Advanced Imaging:** Exploring the hardware-software co-design of next-generation low-light and high-resolution imaging.
 - **Synthetic Data:** Utilizing game engine rendering to create robust simulations for real-world computer vision applications.

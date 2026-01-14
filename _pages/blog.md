@@ -22,6 +22,7 @@ pagination:
 {% assign blog_description_size = site.blog_description | size %}
 
 {% if blog_name_size > 0 or blog_description_size > 0 %}
+
   <div class="header-bar">
     <h1>{{ site.blog_name }}</h1>
     <h2>{{ site.blog_description }}</h2>
@@ -29,6 +30,7 @@ pagination:
 {% endif %}
 
 {% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}
+
   <div class="tag-category-list">
     <ul class="p-0 m-0">
       {% for tag in site.display_tags %}
@@ -55,12 +57,14 @@ pagination:
         {% endunless %}
       {% endfor %}
     </ul>
+
   </div>
 {% endif %}
 
 {% assign featured_posts = site.posts | where: "featured", "true" %}
 {% if featured_posts.size > 0 %}
-  <br>
+<br>
+
   <div class="container featured-posts">
     {% assign is_even = featured_posts.size | modulo: 2 %}
     <div class="row row-cols-{% if featured_posts.size <= 2 or is_even == 0 %}2{% else %}3{% endif %}">
@@ -98,6 +102,7 @@ pagination:
         </div>
       {% endfor %}
     </div>
+
   </div>
   <hr>
 {% endif %}
@@ -185,9 +190,11 @@ pagination:
         {% endif %}
       </li>
     {% endfor %}
+
   </ul>
 
-  {% if page.pagination.enabled %}
-    {% include pagination.liquid %}
-  {% endif %}
+{% if page.pagination.enabled %}
+{% include pagination.liquid %}
+{% endif %}
+
 </div>
