@@ -435,7 +435,12 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "news-a-simple-inline-announcement",
+      },{id: "books-hands-on-machine-learning-with-scikit-learn-and-pytorch",
+          title: 'Hands-On Machine Learning with Scikit-Learn and PyTorch',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_godfather/";
+            },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
           section: "News",},{id: "news-a-long-announcement-with-details",
