@@ -11,9 +11,9 @@ related_publications: false
 What started as a high-fidelity prototype for collectors is evolving into a comprehensive infrastructure platform for the live events industry. This project represents a journey from a single-user tool ("FolioVerse") to a multi-tenant SaaS ecosystem ("VenueGrid").
 
 ### Live Application
-You can explore the current functional prototype here:  
-**[Launch FolioVerse Web App](https://folioverse.streamlit.app/)**  
 
+You can explore the current functional prototype here:  
+**[Launch FolioVerse Web App](https://folioverse.streamlit.app/)**
 
 ---
 
