@@ -2,7 +2,7 @@
 layout: page
 title: FolioVerse
 description: Creating a TCG Portfolio Tracker
-img: assets/img/dkbxtcg_logo.png
+img: assets/img/dkbxtcg_logo.ico
 importance: 1
 category: work
 related_publications: false
