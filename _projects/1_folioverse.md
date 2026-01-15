@@ -1,8 +1,8 @@
 ---
 layout: page
-title: FolioVerse to VenueGrid
+title: FolioVerse
 description: Creating a TCG Portfolio Tracker
-img:
+img: assets/img/dkbxtcg_logo.png
 importance: 1
 category: work
 related_publications: false
