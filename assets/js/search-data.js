@@ -59,9 +59,9 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_1/";
-            },},{id: "projects-folioverse",
-          title: 'FolioVerse',
-          description: "From Interactive Binder to Event Infrastructure Platform",
+            },},{id: "projects-folioverse-to-venuegrid",
+          title: 'FolioVerse to VenueGrid',
+          description: "Evolving a TCG Portfolio Tracker into a Live Event Infrastructure Platform",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_folioverse/";
             },},{
