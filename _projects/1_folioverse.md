@@ -1,54 +1,48 @@
 ---
 layout: page
-title: FolioVerse
-description: From Interactive Binder to Event Infrastructure Platform
-img: assets/img/dkbxtcg_logo.ico
+title: FolioVerse to VenueGrid
+description: Evolving a TCG Portfolio Tracker into a Live Event Infrastructure Platform
+img: 
 importance: 1
 category: work
 related_publications: false
 ---
 
-FolioVerse began as a high-fidelity prototype designed to solve a specific problem in the Trading Card Game (TCG) community: the disconnect between physical collections and digital valuation. While most collectors rely on static spreadsheets or disconnected marketplaces, FolioVerse introduces an immersive, "game-like" interface for portfolio management.
+What started as a high-fidelity prototype for collectors is evolving into a comprehensive infrastructure platform for the live events industry. This project represents a journey from a single-user tool ("FolioVerse") to a multi-tenant SaaS ecosystem ("VenueGrid").
 
-Currently built as a rapid-prototype using **Streamlit** and **Python 3.10**, the application features a skeuomorphic "Drag-and-Drop" binder system, real-time market data integration via the Pokemon TCG API, and a financial analytics dashboard.
+### Phase 1: The Prototype (FolioVerse)
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/folio_binder.jpg" title="The Interactive Binder" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/folio_analytics.jpg" title="Market Analytics" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/folio_search.jpg" title="Card Catalog" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Left: The interactive "Pro Binder" allowing custom slot organization. Middle: Financial ROI tracking using real-time market data. Right: The comprehensive card search engine.
-</div>
+The initial concept, **FolioVerse**, was built to solve a specific problem in the Trading Card Game (TCG) community: the disconnect between physical collections and digital valuation. Most collectors rely on static spreadsheets or disconnected marketplaces. I wanted to create an immersive, "game-like" interface for portfolio management.
 
-### The Engineering Challenge
+Built as a rapid prototype using **Python 3.10** and **Streamlit**, the current application features:
+*   **Immersive Binder:** A skeuomorphic "drag-and-drop" interface that allows users to organize digital cards exactly as they would in a physical binder.
+*   **Market Data Engine:** Real-time integration with the Pokemon TCG API to track historical pricing and market movers.
+*   **Portfolio Analytics:** A financial dashboard calculating ROI, win/loss metrics, and set completion percentages.
 
-While the current version demonstrates the UX potential, scaling this to support thousands of concurrent users required a fundamental architectural pivot. I am currently migrating the project from a monolithic Streamlit script to a **Microservices Architecture**.
+### Phase 2: The Engineering Pivot
 
-The new backend separates concerns using **FastAPI** for high-performance REST endpoints, **PostgreSQL** with **TimescaleDB** for time-series price history, and **Docker** for containerized deployment. This shift ensures data integrity (ACID compliance) and eliminates the race conditions inherent in local file-based storage.
+While the Streamlit prototype demonstrated valuable UX concepts, scaling it to support thousands of concurrent users required a fundamental architectural shift. I am currently migrating the project from a monolithic script to a **Cloud-Native Microservices Architecture**.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/architecture_diagram.jpg" title="System Architecture" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/code_snippet.jpg" title="FastAPI Code" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    The Roadmap: Transitioning to a containerized microservices architecture with dedicated Identity, Inventory, and Analytics services.
-</div>
+This migration addresses critical production constraints:
+*   **Concurrency:** Moving from local file-based storage (JSON) to **PostgreSQL** to handle simultaneous writes and ACID transactions.
+*   **Performance:** Decoupling the frontend from the logic by implementing a **FastAPI** backend. This separates the "View" layer from heavy data processing.
+*   **Scalability:** Containerizing services with **Docker** and **Kubernetes** to allow independent scaling of the Inventory Service versus the Analytics Engine.
 
-The platform expansion includes three innovative pillars:
+### Phase 3: The Platform Vision (VenueGrid)
 
-1.  **The Live Bounty Board:** A reverse-marketplace where attendees broadcast "Wants" (e.g., "Looking for Gold Star Rayquaza") to vendors in the room, solving the liquidity problem at shows.
-2.  **Geo-Fenced Inventory:** Utilizing **PostGIS**, the app connects buyers with verified inventory located physically nearby, creating a digital layer over the convention floor.
-3.  **Tiered Verification:** Implementing a "Proof of Stock" system where vendors gain trust badges by uploading real-time photos of high-ticket items, verified by computer vision models.
+The ultimate goal of this project is **VenueGrid**, a platform designed to compete with legacy event management systems like Ticketmaster, specifically tailored for the collectibles industry.
 
-By bridging the gap between the physical excitement of a card show and the efficiency of database engineering, this project moves beyond simple tracking to become critical infrastructure for the collectibles economy.
+The TCG industry suffers from a "Data Desert" at physical events—vendors have inventory that attendees can't see until they walk up to the booth, and organizers lack real-time data on floor activity. VenueGrid acts as the "Operating System" for the convention floor.
+
+**Key Technical & Product Pillars:**
+
+**1. The "Reverse Marketplace" (Bounty Board)**
+Instead of forcing vendors to upload thousands of items, VenueGrid utilizes a "Pull" model. Attendees broadcast "Wants" (e.g., "Looking for Gold Star Rayquaza") to the network. Vendors receive real-time alerts and can "Claim" the bounty, driving foot traffic to their specific booth.
+
+**2. Dynamic Ticketing & Identity**
+To combat scalping and fraud, the platform utilizes a **Context-Aware Identity System**. Users have distinct roles (Organizer, Vendor, Attendee) depending on the event context. Tickets are generated using time-based rotating QR codes (TOTP), preventing static screenshot sharing.
+
+**3. The Financial Ledger**
+Moving beyond simple payment processing, the backend implements an immutable **Double-Entry Ledger**. This ensures perfect financial tracking for split payments (e.g., Platform Fees vs. Organizer Payouts) and enables robust auditing for high-volume transactions via Stripe Connect.
+
+This project showcases full-stack capability: from intuitive frontend UX design to complex, distributed backend systems engineering.
