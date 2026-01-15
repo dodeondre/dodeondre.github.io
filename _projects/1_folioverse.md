@@ -1,8 +1,8 @@
 ---
 layout: page
 title: FolioVerse to VenueGrid
-description: Creating a TCG Portfolio Tracker 
-img: 
+description: Creating a TCG Portfolio Tracker
+img:
 importance: 1
 category: work
 related_publications: false
@@ -15,17 +15,19 @@ What started as a high-fidelity prototype for collectors is evolving into a comp
 The initial concept, **FolioVerse**, was built to solve a specific problem in the Trading Card Game (TCG) community: the disconnect between physical collections and digital valuation. Most collectors rely on static spreadsheets or disconnected marketplaces. I wanted to create an immersive, "game-like" interface for portfolio management.
 
 Built as a rapid prototype using **Python 3.10** and **Streamlit**, the current application features:
-*   **Immersive Binder:** A skeuomorphic "drag-and-drop" interface that allows users to organize digital cards exactly as they would in a physical binder.
-*   **Market Data Engine:** Real-time integration with the Pokemon TCG API to track historical pricing and market movers.
-*   **Portfolio Analytics:** A financial dashboard calculating ROI, win/loss metrics, and set completion percentages.
+
+- **Immersive Binder:** A skeuomorphic "drag-and-drop" interface that allows users to organize digital cards exactly as they would in a physical binder.
+- **Market Data Engine:** Real-time integration with the Pokemon TCG API to track historical pricing and market movers.
+- **Portfolio Analytics:** A financial dashboard calculating ROI, win/loss metrics, and set completion percentages.
 
 ### Phase 2: The Engineering Pivot
 
 While the Streamlit prototype demonstrated valuable UX concepts, scaling it to support thousands of concurrent users required a fundamental architectural shift. I am currently migrating the project from a monolithic script to a **Cloud-Native Microservices Architecture**.
 
 This migration addresses critical production constraints:
-*   **Concurrency:** Moving from local file-based storage (JSON) to **PostgreSQL** to handle simultaneous writes and ACID transactions.
-*   **Performance:** Decoupling the frontend from the logic by implementing a **FastAPI** backend. This separates the "View" layer from heavy data processing.
-*   **Scalability:** Containerizing services with **Docker** and **Kubernetes** to allow independent scaling of the Inventory Service versus the Analytics Engine.
+
+- **Concurrency:** Moving from local file-based storage (JSON) to **PostgreSQL** to handle simultaneous writes and ACID transactions.
+- **Performance:** Decoupling the frontend from the logic by implementing a **FastAPI** backend. This separates the "View" layer from heavy data processing.
+- **Scalability:** Containerizing services with **Docker** and **Kubernetes** to allow independent scaling of the Inventory Service versus the Analytics Engine.
 
 This project showcases full-stack capability: from intuitive frontend UX design to complex, distributed backend systems engineering.
