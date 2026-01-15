@@ -63,7 +63,7 @@ ninja.data = [{
           title: 'FolioVerse',
           description: "From Interactive Binder to Event Infrastructure Platform",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project_template/";
+              window.location.href = "/projects/1_folioverse/";
             },},{
         id: 'social-cv',
         title: 'CV',
