@@ -59,8 +59,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_1/";
-            },},{id: "projects-folioverse-to-venuegrid",
-          title: 'FolioVerse to VenueGrid',
+            },},{id: "projects-folioverse",
+          title: 'FolioVerse',
           description: "Creating a TCG Portfolio Tracker",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_folioverse/";
