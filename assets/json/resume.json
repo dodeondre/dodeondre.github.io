@@ -95,13 +95,13 @@
       "url": "https://www.sciencedirect.com/science/article/pii/S240563242500054X",
       "summary": "Automated pipeline using Python/MATLAB to synchronize multi-modal imaging data for clinical radiotherapy planning."
     },
-    {  
+    {
       "name": "Post-Hoc Estimation of a Quantitative Restriction Spectrum Imaging Biomarker",
       "publisher": "medRxiv",
       "releaseDate": "2025-10-15",
       "month": "October",
       "url": "https://www.medrxiv.org/content/10.1101/2025.10.10.25337687v1",
-      "summary":"This study develops a mathematical model of multi-exponential signal decay to recover diagnostic insights from legacy diffusion-weighted imaging (DWI) datasets using Restriction Spectrum Imaging. The methodology enables centers without specialized hardware to perform retrospective analysis using advanced RSI metrics."
+      "summary": "This study develops a mathematical model of multi-exponential signal decay to recover diagnostic insights from legacy diffusion-weighted imaging (DWI) datasets using Restriction Spectrum Imaging. The methodology enables centers without specialized hardware to perform retrospective analysis using advanced RSI metrics."
     },
     {
       "name": "Robustness of a Restriction Spectrum Imaging (RSI) quantitative MRI biomarker",
@@ -136,12 +136,12 @@
     {
       "name": "Gaming",
       "icon": "fa-solid fa-gamepad",
-      "keywords": ["Video Games","Trading Card Games","Board Games"]
+      "keywords": ["Video Games", "Trading Card Games", "Board Games"]
     },
     {
       "name": "Entrepreneurship",
       "icon": "fa-solid fa-briefcase",
-      "keywords": ["Strategic Management", "Product Development","Business Analysis"]
+      "keywords": ["Strategic Management", "Product Development", "Business Analysis"]
     }
   ],
   "references": [],
