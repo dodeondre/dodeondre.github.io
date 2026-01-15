@@ -61,7 +61,7 @@ ninja.data = [{
               window.location.href = "/news/announcement_1/";
             },},{id: "projects-folioverse-to-venuegrid",
           title: 'FolioVerse to VenueGrid',
-          description: "Evolving a TCG Portfolio Tracker into a Live Event Infrastructure Platform",
+          description: "Creating a TCG Portfolio Tracker",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_folioverse/";
             },},{
