@@ -1,15 +1,75 @@
 metadata:
-  last_updated: '2026-01-14'
+  last_updated: '2026-01-21'
 papers:
-  do2025precision:
+  TTTFjEkAAAAJ:2osOgNQ5qMEC:
     citations: 0
-    title: "PrecisionPro Fusion: Clinical Validation of an Automated MRI-CT Fusion System"
+    title: Prostate Auto-Segmentation Model for MRI with or without Hydrogel Spacer
     year: '2025'
-  do2025posthoc:
-    citations: 0
-    title: "Post-hoc Estimation of a Quantitative RSI Biomarker"
-    year: '2025'
-  do2024robustness:
-    citations: 0
-    title: "Robustness of a Restriction Spectrum Imaging Quantitative MRI Biomarker"
+  TTTFjEkAAAAJ:9yKSN-GCB0IC:
+    citations: 3
+    title: "Robustness of a Restriction Spectrum Imaging (RSI) quantitative MRI biomarker for prostate cancer: assessing for systematic bias due to age, race, ethnicity, prostate volume \u2026"
     year: '2024'
+  TTTFjEkAAAAJ:IjCSPb-OGe4C:
+    citations: 0
+    title: The Role of the Gut Microbiome in Neuromodulation Therapies as a Potential Treatment Adjunct for Multiple Sclerosis
+    year: '2021'
+  TTTFjEkAAAAJ:LkGwnXOMwfcC:
+    citations: 0
+    title: Advanced Diffusion-Weighted MRI for Prostate Cancer Detection and Treatment Planning
+    year: '2025'
+  TTTFjEkAAAAJ:Tyk-4Ss8FVUC:
+    citations: 1
+    title: Clinical Impact of Contouring Variability for Prostate Cancer Tumor Boost
+    year: '2023'
+  TTTFjEkAAAAJ:UeHWp8X0CEIC:
+    citations: 1
+    title: "ReIGNITE RT boost: an international study testing the feasibility, accuracy and reliability of using restriction spectrum imaging (RSI) MRI to guide radiotherapy target volume \u2026"
+    year: '2022'
+  TTTFjEkAAAAJ:W7OEmFMy1HYC:
+    citations: 0
+    title: Post-hoc Estimation of a Quantitative Restriction Spectrum Imaging Biomarker for Prostate Cancer Detection Using Conventional MRI
+    year: '2025'
+  TTTFjEkAAAAJ:WF5omc3nYNoC:
+    citations: 0
+    title: Impact of Hip Prostheses on Restriction Spectrum Imaging for Prostate Cancer Detection
+    year: '2024'
+  TTTFjEkAAAAJ:Y0pCki6q_DkC:
+    citations: 7
+    title: Utility of quantitative measurement of T2 using restriction spectrum imaging for detection of clinically significant prostate cancer
+    year: '2024'
+  TTTFjEkAAAAJ:YsMSGLbcyi4C:
+    citations: 3
+    title: Improved correction of B0 inhomogeneity-induced distortions in diffusion-weighted images of the prostate
+    year: '2024'
+  TTTFjEkAAAAJ:_FxGoFyzp5QC:
+    citations: 1
+    title: Background prostate tissue is quantitatively abnormal on MRI in patients with clinically significant prostate cancer
+    year: '2022'
+  TTTFjEkAAAAJ:d1gkVwhDpl0C:
+    citations: 0
+    title: 'PrecisionPro fusion: Clinical validation of an automated MRI-CT Fusion system for prostate radiotherapy planning'
+    year: '2025'
+  TTTFjEkAAAAJ:eQOLeE2rZwMC:
+    citations: 14
+    title: Restriction Spectrum Imaging as a quantitative biomarker for prostate cancer with reliable positive predictive value
+    year: '2025'
+  TTTFjEkAAAAJ:qjMakFHDy7sC:
+    citations: 17
+    title: Clinical impact of contouring variability for prostate cancer tumor boost
+    year: '2024'
+  TTTFjEkAAAAJ:u-x6o8ySG0sC:
+    citations: 2
+    title: Deep learning AI and Restriction Spectrum Imaging for patient-level detection of clinically significant prostate cancer on MRI
+    year: '2024'
+  TTTFjEkAAAAJ:u5HHmVD_uO8C:
+    citations: 4
+    title: "ReIGNITE RT boost: an international study testing the accuracy and feasibility of using restriction spectrum imaging (RSI) MRI to guide intraprostatic tumor target volume for \u2026"
+    year: '2022'
+  TTTFjEkAAAAJ:ufrVoPGSRksC:
+    citations: 31
+    title: "ReIGNITE radiation therapy boost: a prospective, international study of radiation oncologists\u2019 accuracy in contouring prostate tumors for focal radiation therapy boost on \u2026"
+    year: '2023'
+  TTTFjEkAAAAJ:zYLM7Y9cAGgC:
+    citations: 1
+    title: Background prostate tissue is quantitatively abnormal on T 2-weighted MRI in patients with clinically significant prostate cancer
+    year: '2023'
