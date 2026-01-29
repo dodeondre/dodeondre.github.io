@@ -39,7 +39,7 @@ My academic interests lie in:
 
 ### Beyond the Lab
 
-In addition to my research, I am a part-time business owner and the founder of DeckBuilder Trading Card Games, a hobby store built to help collectors liquidate and build their trading card collections. By leveraging PyTorch and Computer Vision, I am building tools to automate inventory management and financial tracking for the hobbyist community.
+In addition to my research, I am a part-time business owner and the founder of DeckBuilder Trading Card Games, a hobby store built to help collectors liquidate and build their trading card collections. By leveraging Computer Vision, I am building tools to automate inventory management and financial tracking for the hobbyist community.
 
 When I am not processing DICOM data, you can find me exploring the latest in video games, studying strategic business management, or experimenting with new skills like video editing or 3D modeling.
 
